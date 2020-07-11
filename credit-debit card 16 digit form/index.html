@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+  <body>
+    <h1 style="background-color: chartreuse; width: 380px; padding-left: 55px;">
+      For copypaste check below
+    </h1>
+    <label class="labelName">Card Number*</label>
+    <input
+      type="text"
+      name="firstField"
+      id="first"
+      placeholder="XXXX"
+      onkeypress="myFunctionColor(this)"
+      onkeydown="myFunc(event)"
+      onkeyup="myFunction()"
+    />
+    <input
+      type="text"
+      name="secondField"
+      id="second"
+      placeholder="XXXX"
+      maxlength="4"
+      onkeypress="myFunctionColor(this)"
+      onkeydown="myFunc(event)"
+      onkeyup="myFunction()"
+    />
+    <input
+      type="text"
+      name="thirdField"
+      id="third"
+      placeholder="XXXX"
+      maxlength="4"
+      onkeypress="myFunctionColor(this)"
+      onkeyup="myFunction()"
+    />
+    <input
+      type="text"
+      name="fourthField"
+      id="fourth"
+      placeholder="XXXX"
+      value=""
+      maxlength="4"
+      onkeypress="myFunctionColor(this)"
+      onkeyup="myFunction()"
+    />
+    <div>
+      <h1
+        style="
+          background-color: chartreuse;
+          width: 380px;
+          margin-top: 100px;
+          padding-left: 55px;
+        "
+      >
+        For deleting check below
+      </h1>
+      <label class="labelName">Card Number*</label>
+      <input
+        type="text"
+        name="firstField"
+        id="first1"
+        placeholder="XXXX"
+        maxlength="4"
+        oninput="myFunctionDeletion()"
+      />
+      <input
+        type="text"
+        name="secondField"
+        id="second1"
+        placeholder="XXXX"
+        maxlength="4"
+        oninput="myFunctionDeletion()"
+      />
+      <input
+        type="text"
+        name="thirdField"
+        id="third1"
+        placeholder="XXXX"
+        maxlength="4"
+        oninput="myFunctionDeletion()"
+      />
+      <input
+        type="text"
+        name="fourthField"
+        id="fourth1"
+        placeholder="XXXX"
+        value=""
+        maxlength="4"
+        oninput="myFunctionDeletion()"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
